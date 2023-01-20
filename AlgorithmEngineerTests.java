@@ -1,12 +1,3 @@
-// --== CS400 Fall 2022 File Header Information ==--
-// Name: Oliver Bai
-// Email: obai2@wisc.edu
-// Team: DY
-// TA: Sujitha
-// Lecturer: Professor Florian
-// Notes to Grader: Nothing :)
-
-
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.BeforeEach;
 

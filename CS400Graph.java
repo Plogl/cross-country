@@ -1,11 +1,3 @@
-// --== CS400 Fall 2022 File Header Information ==--
-// Name: Oliver Bai
-// Email: obai2@wisc.edu
-// Team: DY
-// TA: Sujitha
-// Lecturer: Professor Florian
-// Notes to Grader: Hope this is alright!
-
 import java.util.List;
 import java.util.LinkedList;
 import java.util.PriorityQueue;

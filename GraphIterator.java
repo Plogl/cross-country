@@ -1,11 +1,3 @@
-// --== CS400 Fall 2022 File Header Information ==--
-// Name: Oliver Bai
-// Email: obai2@wisc.edu
-// Team: DY
-// TA: Sujitha
-// Lecturer: Professor Florian
-// Notes to Grader: Hope the comments are alright
-
 import java.io.FileNotFoundException;
 import java.lang.Math;
 import java.util.ArrayList;
