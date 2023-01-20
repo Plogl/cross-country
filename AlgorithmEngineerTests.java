@@ -1,3 +1,11 @@
+// --== CS400 Fall 2022 File Header Information ==--
+// Name: Oliver Bai
+// Email: obai2@wisc.edu
+// Team: DY
+// TA: Sujitha
+// Lecturer: Professor Florian
+// Notes to Grader: Nothing :)
+
 
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.BeforeEach;
@@ -107,7 +115,7 @@ public class AlgorithmEngineerTests {
     //by creating a path with maximum 800 kilometers between each stop, which is a recommended "minimum"
     //for our application
     @Test
-    public void testIntegration1()
+    public void testImplementation1()
     {
         bm = new BackendMapper(800);
         bm.createGraph();
@@ -121,7 +129,7 @@ public class AlgorithmEngineerTests {
 //  changes in info given to backend, the max distance, is properly being passed, and doesn't change
 //  the ending node, and properly shrinks and adjusts the route
     @Test
-    public void testIntegration2()
+    public void testImplementation2()
     {
         bm = new BackendMapper(1000);
         bm.createGraph();
@@ -133,7 +141,7 @@ public class AlgorithmEngineerTests {
     //checks the first node to make sure that they have proper latitude, longitudes,
     //capitals, state name, and border states.
     @Test
-    public void testCodeReviewOfDataWrangler1()
+    public void testPartner1()
     {
         ArrayList<String> borTest = new ArrayList<>();
         borTest.add("Mississippi");
@@ -142,7 +150,7 @@ public class AlgorithmEngineerTests {
         borTest.add("Georgia");
         ArrayList<ICapital> capTest = new ArrayList<ICapital>();
         try {
-            capTest = cl.loadCapitals("Capitals.csv");
+            capTest = cl.loadCapitals("src/Capitals.csv");
         } catch (FileNotFoundException e) {
             e.printStackTrace();
         }
@@ -192,7 +200,7 @@ public class AlgorithmEngineerTests {
     //from Sacramento to Boise in 400km. I use BackendMapper just to make the testing process
     //cleaner
     @Test
-    public void testCodeReviewOfDataWrangler2()
+    public void testPartner2()
     {
         boolean check;
         bm = new BackendMapper(400);

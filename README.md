@@ -1,6 +1,9 @@
 # cross country
- 
--A test run of this code can be found as Cross-Country-Example.gif, and tests as JUnit-Tests-Example.gif-
+
+***I am having issues getting the code from the server, will update this repo once everything is in order. I still felt it important to include a few files I still had locally that demonstrate familiarity
+with JUnit and graph traversal and Dijkstra's algorithm***
+
+-A test run of this code can be found as Cross-Country-Example.gif, and tests at JUnit-Tests-Example.gif-
 
 A trip planner that uses capital cities as stops between your starting and ending city. 
 
@@ -14,6 +17,3 @@ to reach your destination in the shortest distance.
 
 To run this code, download all folders into a file, and use a JavaFX compatible compiler. Make sure JavaFX is installed properly, and to look at tests make sure JUnit is installed properly. 
 I wouldn't recommend going through all the hassle, so I've included example run throughs of the code working as a whole, and of my JUnit tests.
-
-
-An example run of code can be found under Book-Catalogue-Example.gif.
