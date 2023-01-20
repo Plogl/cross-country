@@ -1,7 +1,7 @@
 # cross country
 
 ***I am having issues getting the code from the server, will update this repo once everything is in order. I still felt it important to include a few files I still had locally that demonstrate familiarity
-with JUnit and graph traversal and Dijkstra's algorithm***
+with JUnit and graph traversal and Dijkstra's algorithm. I still have a recording of the code when everything was functional.***
 
 -A test run of this code can be found as Cross-Country-Example.gif, and tests at JUnit-Tests-Example.gif-
 
