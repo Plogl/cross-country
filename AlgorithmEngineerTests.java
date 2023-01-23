@@ -106,7 +106,7 @@ public class AlgorithmEngineerTests {
     //by creating a path with maximum 800 kilometers between each stop, which is a recommended "minimum"
     //for our application
     @Test
-    public void testImplementation1()
+    public void testIntegration1()
     {
         bm = new BackendMapper(800);
         bm.createGraph();
@@ -120,7 +120,7 @@ public class AlgorithmEngineerTests {
 //  changes in info given to backend, the max distance, is properly being passed, and doesn't change
 //  the ending node, and properly shrinks and adjusts the route
     @Test
-    public void testImplementation2()
+    public void testIntegration2()
     {
         bm = new BackendMapper(1000);
         bm.createGraph();
@@ -132,7 +132,7 @@ public class AlgorithmEngineerTests {
     //checks the first node to make sure that they have proper latitude, longitudes,
     //capitals, state name, and border states.
     @Test
-    public void testPartner1()
+    public void testCodeReviewOfDataWrangler1()
     {
         ArrayList<String> borTest = new ArrayList<>();
         borTest.add("Mississippi");
@@ -191,7 +191,7 @@ public class AlgorithmEngineerTests {
     //from Sacramento to Boise in 400km. I use BackendMapper just to make the testing process
     //cleaner
     @Test
-    public void testPartner2()
+    public void testCodeReviewOfDataWrangler2()
     {
         boolean check;
         bm = new BackendMapper(400);
