@@ -1,6 +1,6 @@
--A test run of this code can be found as 'Cross-Country-Example.gif', and Unit Tests in 'JUnit-Tests-Example.gif'-
-
 A trip planner that uses capital cities as stops between your starting and ending city. 
+
+-A test run of this code can be found as 'Cross-Country-Example.gif', and Unit Tests in 'JUnit-Tests-Example.gif'-
 
 I was the backend and algorithm developer for this project. I created files with 'AlgorithmEngineer' and "Backend" as the prefix, 
 GraphADT.java, and created the AlgorithmEngineerTests.java, which is a set of JUnit tests for the program. Any programs not created by me are credited to my teammate, Michael Bonfiglio
