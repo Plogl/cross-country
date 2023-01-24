@@ -1,4 +1,6 @@
-A trip planner that uses capital cities as stops between your starting and ending city. 
+# cross country
+
+ A trip planner that uses capital cities as stops between your starting and ending city. 
 
 -A test run of this code can be found as 'Cross-Country-Example.gif', and Unit Tests in 'JUnit-Tests-Example.gif'-
 
